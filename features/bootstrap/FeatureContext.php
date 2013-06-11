@@ -25,6 +25,8 @@ class FeatureContext extends Behat\MinkExtension\Context\MinkContext
       //print_r(get_class_methods($this->getSession()));
 
       $headers = $this->getSession()->getResponseHeaders();
+      echo "I am Printing all response headers here  \n";
+      print_r($headers);
       $content_type =  $headers['content-type'];
       assert($content_type == "application/pdf");
     }
