@@ -1,0 +1,14 @@
+{
+    "require": {
+        "behat/behat": "2.4.*@stable",
+        "behat/mink": "1.4@stable",
+        "behat/mink-goutte-driver": "*",
+        "behat/mink-extension": "*",
+        "behat/symfony2-extension": "*"
+
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
